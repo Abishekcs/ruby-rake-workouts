@@ -36,6 +36,15 @@ namespace :file do
   end
 end
 
+# Access Environment Variables
+# Rake also allows to pass the environment variable for the particular
+# command. It's only valid for that specific command, though
+# Example: export STATE=paused
+
+task :show_state do
+  puts "State = #{ENV["STATE"]}"
+end
+
 
 
 Rails.application.load_tasks
