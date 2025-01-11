@@ -1,0 +1,15 @@
+current directory: /home/ad/Videos/ruby-rake-workouts/ruby/3.1.0/gems/websocket-driver-0.7.7/ext/websocket-driver
+/usr/share/rvm/rubies/ruby-3.1.2/bin/ruby -I /usr/share/rvm/rubies/ruby-3.1.2/lib/ruby/3.1.0 -r ./siteconf20250111-744775-8w80ia.rb extconf.rb
+creating Makefile
+
+current directory: /home/ad/Videos/ruby-rake-workouts/ruby/3.1.0/gems/websocket-driver-0.7.7/ext/websocket-driver
+make DESTDIR\= clean
+
+current directory: /home/ad/Videos/ruby-rake-workouts/ruby/3.1.0/gems/websocket-driver-0.7.7/ext/websocket-driver
+make DESTDIR\=
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: /home/ad/Videos/ruby-rake-workouts/ruby/3.1.0/gems/websocket-driver-0.7.7/ext/websocket-driver
+make DESTDIR\= install
+/usr/bin/install -m 0755 websocket_mask.so ./.gem.20250111-744775-utfl5i
