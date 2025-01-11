@@ -24,4 +24,18 @@ task compile: %i[clean sanitize interpret]  do
   puts "Compiling the code."
 end
 
+# Scope
+# We can scope tasks with similar names under different namespaces
+task :backup do
+  puts "Database backup"
+end
+
+namespace :file do
+  task :backup do
+    puts "File backup"
+  end
+end
+
+
+
 Rails.application.load_tasks
