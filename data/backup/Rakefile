@@ -75,15 +75,4 @@ task :backup do
   cp "Rakefile", "data/backup/Rakefile"
 end
 
-# We can also run shells Command (Which is gonna be very useful)
-# Example: This is especially handy when we want to run git
-# add , commit, push commands.
-
-desc "git add, commit, and push"
-task :track do
-  sh "git add ."
-  sh "git commit -m '#{ENV['m']}' "
-  sh "git push origin main"
-end
-
 Rails.application.load_tasks
